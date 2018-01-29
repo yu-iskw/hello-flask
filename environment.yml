@@ -1,0 +1,8 @@
+name: hello-flask
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python=2.7
+    - pip:
+      - flask-restful==0.3.6
